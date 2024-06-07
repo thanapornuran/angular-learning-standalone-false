@@ -1,0 +1,50 @@
+main {
+  color: white;
+  margin: 5%;
+}
+
+.year-show {
+  background-color: #FFD23F;
+  color: black;
+  font-weight: bolder;
+  height: 100px;
+  border-radius: 15px;
+  align-content: center;
+  font-size: xx-large;
+}
+
+.recov-today-show {
+  background-color: #40A578;
+  font-weight: bold;
+  height: 100px;
+  border-radius: 15px;
+  align-content: center;
+  font-size: large;
+}
+
+.total-recov-show {
+  background-color: #508D69;
+  height: 100px;
+  border-radius: 15px;
+  align-content: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.new-pre-show {
+  background-color: #EE4E4E;
+  height: 100px;
+  border-radius: 15px;
+  align-content: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.total-pre-show {
+  background-color: #DD5746;
+  height: 100px;
+  border-radius: 15px;
+  align-content: center;
+  font-size: large;
+  font-weight: bold;
+}

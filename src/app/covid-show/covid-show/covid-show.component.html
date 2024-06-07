@@ -1,0 +1,27 @@
+<main>
+  <div class="container text-center">
+    <div class="row">
+      <p class="year-show">
+        ปี {{ data[0].year }}
+      </p>
+    </div>
+    <div class="row">
+      <p class="recov-today-show col m-1">
+        หายป่วยวันนี้ + {{ data[0].new_recovered }} คน
+      </p>
+      <p class="total-recov-show col m-1">
+        หายป่วยสะสม {{ data[0].total_recovered }} คน
+      </p>
+    </div>
+    <div class="row">
+      <p class="new-pre-show col m-1">
+        จํานวนผู้ป่วยรายใหม่ + {{ data[0].new_case }} คน
+      </p>
+      <p class="total-pre-show col m-1">
+        จํานวนผู้ป่วยสะสม {{ data[0].total_case }} คน
+      </p>
+    </div>
+  </div>
+
+  <button type="button" (click)="showData()" class="btn btn-primary mt-5"> console.log(data) check </button>
+</main>

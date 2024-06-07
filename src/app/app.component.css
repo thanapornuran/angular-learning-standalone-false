@@ -1,0 +1,10 @@
+main {
+    background-color: #55423d;
+    height: 82vh;
+    font-family: "Mitr", sans-serif;
+}
+
+a:hover {
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
